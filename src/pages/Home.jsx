@@ -115,7 +115,7 @@ export default function Home() {
                     <tbody>
                         {filteredCustomers.map(customer => (
                             <tr key={customer.id} onClick={() => setSelectedCustomer(customer)}>
-                                <td>{customer.name}</td>
+                                <td className={style.link}>{customer.name}</td>
                                 <td>
                                     <ul>
                                         {transactions

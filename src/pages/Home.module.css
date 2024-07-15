@@ -32,3 +32,6 @@ input {
   border-radius: 6px;
   border: 1px solid gray;
 }
+.link{
+  cursor:pointer ;
+}
