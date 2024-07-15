@@ -1,0 +1,34 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.5rem 0;
+  gap: 10px;
+  overflow: hidden;
+}
+@media (max-width: 1180px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.filetDiv {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 23px;
+  margin: 10px;
+}
+li {
+  list-style: none;
+}
+select {
+  padding: 6px;
+  margin: 3px 8px;
+}
+input {
+  padding: 7px;
+  border-radius: 6px;
+  border: 1px solid gray;
+}
